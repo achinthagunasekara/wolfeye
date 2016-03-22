@@ -23,6 +23,7 @@ public class Check {
 		Calendar cal = Calendar.getInstance();
 		this.lastCheck = (Date) cal.getTime();
 		this.status = CheckStatus.Status.UNKNOWN;
+		this.statusDetails = "";
 	}
 	
 	public void setLastCheck(Date lastCheck) {
@@ -36,6 +37,7 @@ public class Check {
 	public String getName() { return this.checkName; }
 	public Date getLastCheck() { return this.lastCheck; }
 	public Status getStatus() { return this.status; }
+	public String getStatusDetails() { return this.statusDetails; }
 	
 	public String toString() {
 		
