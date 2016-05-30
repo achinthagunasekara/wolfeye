@@ -1,3 +1,3 @@
 #Wolf Eye
 
-Network monitoring tool.
+Network monitoring tool. Currntly only client component is here.
