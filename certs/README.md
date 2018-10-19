@@ -1,8 +1,8 @@
-#Keys for SSL Communication
+# Keys for SSL Communication
 
 We need to create a self signed certificate for the SSL communication. Password I used here is 'test123'.
 
-##How To
+## How To
 
 ```bash
 archieg@Archies-MacBook-Pro:certs (master)$ keytool -genkey -keyalg RSA -alias selfsigned -keystore keystore.jks -storepass test123 -validity 360 -keysize 2048
