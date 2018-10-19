@@ -1,8 +1,8 @@
-#Wolf Eye Client
+# Wolf Eye Client
 
 Client is a executable.
 
-##Testing the Client
+## Testing the Client
 
 In this case we are testing the client running on localhost on port 9090.
 
